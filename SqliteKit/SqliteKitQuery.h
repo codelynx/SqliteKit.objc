@@ -1,6 +1,6 @@
 //
 //  SqliteKitResult.h
-//  ZSqlite
+//  SqliteKit
 //
 //  Created by Kaz Yoshikawa on 14/1/11.
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
 @class SqliteKitDatabase;
-@class ZSqliteRow;
 @class SqliteKitResult;
+@class SqliteKitRow;
 
 
 //

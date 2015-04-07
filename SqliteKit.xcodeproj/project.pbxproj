@@ -47,12 +47,12 @@
 		CCD5E19D1AD3827000A77BCA /* SqliteKitTableColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SqliteKitTableColumn.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CCD5E19E1AD3827000A77BCA /* SqliteKitDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SqliteKitDatabase.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CCD5E19F1AD3827000A77BCA /* SqliteKitDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SqliteKitDatabase.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		CCD5E1A01AD3827000A77BCA /* SqliteKitQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteKitQuery.h; sourceTree = "<group>"; };
-		CCD5E1A11AD3827000A77BCA /* SqliteKitQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteKitQuery.m; sourceTree = "<group>"; };
-		CCD5E1A21AD3827000A77BCA /* SqliteKitResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteKitResult.h; sourceTree = "<group>"; };
-		CCD5E1A31AD3827000A77BCA /* SqliteKitResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteKitResult.m; sourceTree = "<group>"; };
-		CCD5E1A61AD3827000A77BCA /* SqliteKitTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteKitTable.h; sourceTree = "<group>"; };
-		CCD5E1A71AD3827000A77BCA /* SqliteKitTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteKitTable.m; sourceTree = "<group>"; };
+		CCD5E1A01AD3827000A77BCA /* SqliteKitQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SqliteKitQuery.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CCD5E1A11AD3827000A77BCA /* SqliteKitQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SqliteKitQuery.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CCD5E1A21AD3827000A77BCA /* SqliteKitResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SqliteKitResult.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CCD5E1A31AD3827000A77BCA /* SqliteKitResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SqliteKitResult.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CCD5E1A61AD3827000A77BCA /* SqliteKitTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SqliteKitTable.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CCD5E1A71AD3827000A77BCA /* SqliteKitTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SqliteKitTable.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CCD5E1B41AD3842A00A77BCA /* SqliteKitRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteKitRow.h; sourceTree = "<group>"; };
 		CCD5E1B51AD3842A00A77BCA /* SqliteKitRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteKitRow.m; sourceTree = "<group>"; };
 		CCD5E1B91AD3D1C900A77BCA /* SqliteKitColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteKitColumn.h; sourceTree = "<group>"; };
@@ -474,6 +474,7 @@
 				CCD5E1961AD3809D00A77BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCD5E1DA1AD3EF7600A77BCA /* Build configuration list for PBXNativeTarget "SqliteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				CCD5E1DC1AD3EF7600A77BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

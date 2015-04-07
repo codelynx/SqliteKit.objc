@@ -1,6 +1,6 @@
 //
 //  SqliteKitResult.m
-//  ZSqlite
+//  SqliteKit
 //
 //  Created by Kaz Yoshikawa on 14/1/11.
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
