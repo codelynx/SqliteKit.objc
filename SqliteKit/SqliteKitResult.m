@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
 //
 
+#import <sqlite3.h>
 #import "SqliteKitResult.h"
 #import "SqliteKitDatabase.h"
 #import "SqliteKitQuery.h"
@@ -13,6 +14,27 @@
 #import "SqliteKitRow.h"
 @class SqliteKitResult;
 
+
+//
+//	SqliteKitDatabase (private)
+//
+
+@interface SqliteKitDatabase (private)
+
+@property (readonly) sqlite3 *sqlite;
+
+@end
+
+
+//
+//	SqliteKitQuery (private)
+//
+
+@interface SqliteKitQuery (private)
+
+@property (readonly) sqlite3_stmt *stmt;
+
+@end
 
 //
 //	SqliteKitRow ()

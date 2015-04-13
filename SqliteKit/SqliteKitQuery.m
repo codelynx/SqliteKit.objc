@@ -6,9 +6,21 @@
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
 //
 
+#import <sqlite3.h>
 #import "SqliteKitQuery.h"
 #import "SqliteKitDatabase.h"
 #import "SqliteKitResult.h"
+
+
+//
+//	SqliteKitDatabase (private)
+//
+
+@interface SqliteKitDatabase (private)
+
+@property (readonly) sqlite3 *sqlite;
+
+@end
 
 
 //

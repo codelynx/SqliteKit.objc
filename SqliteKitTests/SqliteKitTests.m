@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#import <sqlite3.h>
 #import "SqliteKit.h"
 
 @interface SqliteKitTests : XCTestCase
@@ -37,10 +38,9 @@
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-
 	_database = nil;
+
+    [super tearDown];
 }
 
 - (void)testBasic1 {
@@ -56,10 +56,8 @@
 		NSDictionary *dictionary = row.dictionary;
 		NSString *name = dictionary[@"name"];
 		NSNumber *price = dictionary[@"price"];
-		NSLog(@"name.class=%@", name.class);
-		NSLog(@"price.class=%@", price.class);
-		XCTAssertEqualObjects(dictionary[@"name"], @"Apple");
-		XCTAssertEqualObjects(dictionary[@"price"], @100.0);
+		XCTAssertEqualObjects(name, @"Apple");
+		XCTAssertEqualObjects(price, @100.0);
 		count++;
 	}
 	XCTAssert(count == 1);

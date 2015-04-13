@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
 //
 
+#import <sqlite3.h>
 #import "SqliteKitDatabase.h"
 #import "SqliteKitQuery.h"
 #import "SqliteKitTable.h"
 #import "SqliteKitResult.h"
+
 
 //
 //	SqliteKitDatabaseDidUpdate
@@ -121,7 +123,7 @@ static void update_hook_callback(void *arg, int type, const char *database, cons
 
 - (void)setup
 {
-	sqlite3_update_hook(self.sqlite, update_hook_callback, (__bridge void *)(self));
+	sqlite3_update_hook(_sqlite, update_hook_callback, (__bridge void *)(self));
 	self.foreignKeys = YES;
 }
 
@@ -145,8 +147,8 @@ static void update_hook_callback(void *arg, int type, const char *database, cons
 - (void)dealloc
 {
 	if (_sqlite) {
-		sqlite3_update_hook(self.sqlite, NULL, NULL);
-		int result = sqlite3_close(self.sqlite);
+		sqlite3_update_hook(_sqlite, NULL, NULL);
+		int result = sqlite3_close(_sqlite);
 		SqliteKitReportError(result);
 		_sqlite = nil;
 	}

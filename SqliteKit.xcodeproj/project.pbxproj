@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3002811ADACB9000712A85 /* SqliteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1831AD3809D00A77BCA /* SqliteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E19B1AD3810B00A77BCA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5E19A1AD3810B00A77BCA /* libsqlite3.dylib */; };
-		CCD5E1A81AD3827000A77BCA /* SqliteKitTableColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E19C1AD3827000A77BCA /* SqliteKitTableColumn.h */; };
+		CCD5E1A81AD3827000A77BCA /* SqliteKitTableColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E19C1AD3827000A77BCA /* SqliteKitTableColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1A91AD3827000A77BCA /* SqliteKitTableColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E19D1AD3827000A77BCA /* SqliteKitTableColumn.m */; };
-		CCD5E1AA1AD3827000A77BCA /* SqliteKitDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E19E1AD3827000A77BCA /* SqliteKitDatabase.h */; };
+		CCD5E1AA1AD3827000A77BCA /* SqliteKitDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E19E1AD3827000A77BCA /* SqliteKitDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1AB1AD3827000A77BCA /* SqliteKitDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E19F1AD3827000A77BCA /* SqliteKitDatabase.m */; };
-		CCD5E1AC1AD3827000A77BCA /* SqliteKitQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A01AD3827000A77BCA /* SqliteKitQuery.h */; };
+		CCD5E1AC1AD3827000A77BCA /* SqliteKitQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A01AD3827000A77BCA /* SqliteKitQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1AD1AD3827000A77BCA /* SqliteKitQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1A11AD3827000A77BCA /* SqliteKitQuery.m */; };
-		CCD5E1AE1AD3827000A77BCA /* SqliteKitResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A21AD3827000A77BCA /* SqliteKitResult.h */; };
+		CCD5E1AE1AD3827000A77BCA /* SqliteKitResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A21AD3827000A77BCA /* SqliteKitResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1AF1AD3827000A77BCA /* SqliteKitResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1A31AD3827000A77BCA /* SqliteKitResult.m */; };
-		CCD5E1B21AD3827000A77BCA /* SqliteKitTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A61AD3827000A77BCA /* SqliteKitTable.h */; };
+		CCD5E1B21AD3827000A77BCA /* SqliteKitTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1A61AD3827000A77BCA /* SqliteKitTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1B31AD3827000A77BCA /* SqliteKitTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1A71AD3827000A77BCA /* SqliteKitTable.m */; };
-		CCD5E1B61AD3842A00A77BCA /* SqliteKitRow.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1B41AD3842A00A77BCA /* SqliteKitRow.h */; };
+		CCD5E1B61AD3842A00A77BCA /* SqliteKitRow.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1B41AD3842A00A77BCA /* SqliteKitRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1B71AD3842A00A77BCA /* SqliteKitRow.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1B51AD3842A00A77BCA /* SqliteKitRow.m */; };
-		CCD5E1BB1AD3D1C900A77BCA /* SqliteKitColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1B91AD3D1C900A77BCA /* SqliteKitColumn.h */; };
+		CCD5E1BB1AD3D1C900A77BCA /* SqliteKitColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD5E1B91AD3D1C900A77BCA /* SqliteKitColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCD5E1BC1AD3D1C900A77BCA /* SqliteKitColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1BA1AD3D1C900A77BCA /* SqliteKitColumn.m */; };
-		CCD5E1D61AD3EF7600A77BCA /* SqliteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E1D51AD3EF7600A77BCA /* SqliteKitTests.m */; };
 		CCD5E1D71AD3EF7600A77BCA /* SqliteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5E17E1AD3809D00A77BCA /* SqliteKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,10 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCD5E1741AD3809D00A77BCA = {
+		CC3002861ADADCF100712A85 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
 				CCD5E19A1AD3810B00A77BCA /* libsqlite3.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		CCD5E1741AD3809D00A77BCA = {
+			isa = PBXGroup;
+			children = (
+				CC3002861ADADCF100712A85 /* Libraries */,
 				CCD5E1801AD3809D00A77BCA /* SqliteKit */,
 				CCD5E18D1AD3809D00A77BCA /* SqliteKitTests */,
 				CCD5E1D21AD3EF7600A77BCA /* SqliteKitTests */,
@@ -177,6 +185,7 @@
 				CCD5E1B21AD3827000A77BCA /* SqliteKitTable.h in Headers */,
 				CCD5E1AA1AD3827000A77BCA /* SqliteKitDatabase.h in Headers */,
 				CCD5E1AC1AD3827000A77BCA /* SqliteKitQuery.h in Headers */,
+				CC3002811ADACB9000712A85 /* SqliteKit.h in Headers */,
 				CCD5E1A81AD3827000A77BCA /* SqliteKitTableColumn.h in Headers */,
 				CCD5E1BB1AD3D1C900A77BCA /* SqliteKitColumn.h in Headers */,
 				CCD5E1AE1AD3827000A77BCA /* SqliteKitResult.h in Headers */,
@@ -294,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD5E1D61AD3EF7600A77BCA /* SqliteKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

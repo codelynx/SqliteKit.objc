@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.h>
 @class SqliteKitDatabase;
 @class SqliteKitResult;
 @class SqliteKitRow;
-
 
 //
 //	SqliteKitResult
@@ -19,7 +17,6 @@
 
 @interface SqliteKitQuery : NSObject
 
-@property (readonly) sqlite3_stmt *stmt;
 @property (readonly) SqliteKitDatabase *database;
 
 - (id)initWithDatabase:(SqliteKitDatabase *)database query:(NSString *)query;

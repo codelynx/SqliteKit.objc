@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Electricwoods LLC. All rights reserved.
 //
 
+#import <sqlite3.h>
 #import "SqliteKitTable.h"
 #import "SqliteKitDatabase.h"
 #import "SqliteKitQuery.h"
@@ -49,7 +50,7 @@
 		SqliteKitResult *result = [[self.database queryWithFormat:@"pragma table_info('%@');", self.name] execute];
 		NSDictionary *row = nil;
 		while ((row = [result nextRow])) {
-			NSString *name = [row valueForKey:@"name"];
+			__unused NSString *name = [row valueForKey:@"name"];
 			NSParameterAssert(name.length > 0);
 			SqliteKitTableColumn *column = [[SqliteKitTableColumn alloc] initWithTable:self attributes:row];
 			[columns addObject:column];
@@ -58,11 +59,5 @@
 	}
 	return _columns;
 }
-
-//- (NSEnumerator *)rowEnumerator
-//{
-//	SqliteKitResult *result = [[self.database queryWithFormat:@"SELECT * from %@", self.name] execute];
-//	return [result rowEnumerator];
-//}
 
 @end

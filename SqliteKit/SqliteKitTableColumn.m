@@ -9,6 +9,7 @@
 #import "SqliteKitTableColumn.h"
 #import "SqliteKitTable.h"
 
+
 //
 //	SqliteKitTableColumn ()
 //

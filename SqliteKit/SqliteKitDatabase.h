@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.h>
 @class SqliteKitQuery;
 @class SqliteKitResult;
 
@@ -43,7 +42,6 @@ typedef int SqliteKitOptions;
 
 @interface SqliteKitDatabase : NSObject
 
-@property (readonly) sqlite3 *sqlite;
 @property (readonly) NSArray *tables;
 @property (readonly) BOOL fileExists;
 @property (readonly) NSArray *tableNames;
